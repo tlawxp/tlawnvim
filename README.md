@@ -35,16 +35,10 @@ pindahkan file init.vim ke directory ~/.config/nvim
 ```bash
 mv init.vim ~/.config/nvim
 ```
-
-## Run nvim
-
 untuk menjalankan sebuah nvim ketik
 ```bash
 nvim
 ```
-
-## Install plugin
-
 saya anggap kalian sudah masuk ke nvim, untuk menginstall sebuah plugin ketik
 ```bash
 :PlugInstall
