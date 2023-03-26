@@ -1,6 +1,6 @@
 # tlawnvim
 
-adalah sebuah configurasi nvim
+Sebuah configurasi nvim
 
 ![20230326_074713](https://user-images.githubusercontent.com/101454769/227749296-995edd92-dcfd-4b2b-8db2-60d2304a9181.gif)
 
