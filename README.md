@@ -39,7 +39,7 @@ untuk menjalankan sebuah nvim ketik
 ```bash
 nvim
 ```
-saya anggap kalian sudah masuk ke nvim, untuk menginstall sebuah plugin ketik
+saya anggap kalian sudah masuk ke dalam nvim, untuk menginstall sebuah plugin ketik
 ```bash
 :PlugInstall
 ```
@@ -62,7 +62,7 @@ call plug#end()
 
 ## install coc
 
-untuk menginstall sebuah bahasa seperti css,html,js,php dan py
+untuk menginstall sebuah bahasa pemmrograman seperti css,html,js,php dan py
 
 cukup ketik di dalam nvim
 
