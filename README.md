@@ -53,7 +53,7 @@ untuk update plugin cukup ketik
 
 ## add plugin
 
-ingin menambahkan plugin, kalian harus berada di dalam file init.vim lalu tambahkan di bagian.
+ingin menambahkan plugin, edit file init.vim lalu tambahkan di bagian.
 ```bash
 call plug#begin()
   Plug [name]
