@@ -1,0 +1,80 @@
+# tlawnvim
+
+![20230326_074713](https://user-images.githubusercontent.com/101454769/227749296-995edd92-dcfd-4b2b-8db2-60d2304a9181.gif)
+
+## instalasi
+
+cukup ikuti langkah langkahnya
+
+install vim-plug
+```bash
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+```
+```bash
+apt install nodejs
+```
+Clone repository
+```bash
+git clone https://github.com/tlawxp/tlawnvim
+```
+Sebelum masuk ke directory tlawnvim, pastikan kalian harus punya dulu directory ~/.config/nvim
+```bash
+mkdir ~/.config
+mkdir ~/.config/nvim
+```
+Masuk ke directory
+```bash
+cd tlawnvim
+```
+pindahkan file init.vim ke directory ~/.config/nvim
+```bash
+mv init.vim ~/.config/nvim
+```
+
+## Run nvim
+
+untuk menjalankan sebuah nvim ketik
+```bash
+nvim
+```
+
+## Install plugin
+
+saya anggap kalian sudah masuk ke nvim, untuk menginstall sebuah plugin ketik di dalam nvim
+```bash
+:PlugInstall
+```
+Otomatis nvim akan menginstall plugin
+
+untuk update plugin cukup ketik
+```bash
+:PlugUpdate
+```
+
+
+## add plugin
+
+ingin menambahkan plugin kalian harus berada di dalam file init.vim lalu tambahkan di bagian.
+```bash
+call plug#begin()
+  Plug [name]
+call plug#end()
+```
+
+## install coc
+
+untuk menginstall sebuah bahasa seperti css,html,js,php dan py
+
+cukup ketik di dalam nvim
+
+CONTOH : 
+```bash
+:CocInstall coc-pyright
+```
+Update coc
+```bash
+:CocUpdate
+```
+untuk lebih detailnya kunjungi <a href="https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions">coc extensions</a>
