@@ -42,11 +42,11 @@ nvim
 
 ## Install plugin
 
-saya anggap kalian sudah masuk ke nvim, untuk menginstall sebuah plugin ketik di dalam nvim
+saya anggap kalian sudah masuk ke nvim, untuk menginstall sebuah plugin ketik
 ```bash
 :PlugInstall
 ```
-Otomatis nvim akan menginstall plugin
+Otomatis nvim akan menginstall sebuah plugin
 
 untuk update plugin cukup ketik
 ```bash
@@ -56,7 +56,7 @@ untuk update plugin cukup ketik
 
 ## add plugin
 
-ingin menambahkan plugin kalian harus berada di dalam file init.vim lalu tambahkan di bagian.
+ingin menambahkan plugin, kalian harus berada di dalam file init.vim lalu tambahkan di bagian.
 ```bash
 call plug#begin()
   Plug [name]
