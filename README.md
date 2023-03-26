@@ -62,7 +62,7 @@ call plug#end()
 
 ## install coc
 
-untuk menginstall sebuah bahasa pemmrograman seperti css,html,js,php dan py
+untuk menginstall sebuah bahasa pemrograman seperti css,html,js,php dan py
 
 cukup ketik di dalam nvim
 
